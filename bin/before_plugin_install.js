@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function (context) {
-  var req:any = context.require,
+  var req = context.require,
 
       path = req ('path'),
       pathParse = require ('./lib/path-parse');
